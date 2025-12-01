@@ -1,4 +1,31 @@
-# BootstrapForm
+
+Small Bootstrap-based form project migrated to a Vite + React scaffold.
+
+Local dev
+
+1. Install dependencies and run dev server:
+
+```powershell
+cd 'c:\Users\cscot\OneDrive\Desktop\MyCode\BootstrapForm'
+npm install
+npm run dev
+```
+
+2. Build for production:
+
+```powershell
+npm run build
+npm run preview
+```
+
+Notes
+
+- The original `styles.css` remains at the project root and is imported by the React app.
+- Bootstrap CSS/JS are loaded via CDN in `index.html` for simplicity.
+
+If you want, I can:
+- Install dependencies now and start the dev server.
+- Or migrate `styles.css` into the `src` folder and import it there.
 
 Small Bootstrap-based form project.
 
